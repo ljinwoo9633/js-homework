@@ -1,0 +1,104 @@
+body
+{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Teko', sans-serif;
+    background-color: black;
+}
+
+video
+{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, p
+{
+    color: lawngreen;
+}
+
+li
+{
+    border: 1px solid lawngreen;
+    padding: 0.5rem;
+    margin-left: -2.5rem;
+    margin-top: 0.5rem;
+}
+
+.video__container
+{
+    text-align: center;
+}
+
+.disappear
+{
+    display: none;
+}
+
+.appear
+{
+    display: block;
+}
+
+.zergProfile__img
+{
+    width: 140px;
+    height: 140px;
+}
+
+.cardBody
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.cardDescription__frame
+{
+    font-size: 1rem;
+    margin-top: -2.5rem;
+    grid-column: 2 / 5;
+}
+
+.resource__frame
+{
+    display: flex;
+}
+
+.resourcePart__frame
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.resource__img
+{
+    width: 20px;
+    height: 20px;
+}
+
+.result__frame
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.mineral__result
+{
+    border: 1px solid lawngreen;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.supply__result
+{
+    border: 1px solid lawngreen;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.result__img
+{
+    display: block;
+    width: 100%;
+    height: auto;
+}

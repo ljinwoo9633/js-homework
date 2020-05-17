@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Zerg App</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./public/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Teko:wght@500&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/941c7a3e1f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="video__container">
+        <div>
+            <h1 class="video__header"></h1>
+            <button class="disappear video__btn">
+                <i class="fas fa-folder-open"></i> Zerg Data
+            </button>
+        </div>
+        <div>
+            <video 
+                src="public/videos/video.mp4"
+                autoplay
+                class="video_container__video"
+            >
+            </video>
+        </div>
+    </div>
+
+    <div class="info__container disappear">
+        <div class="info__header">
+            <h2>Zerg Units</h2>
+        </div>
+        <div>
+            <ul>
+            </ul>
+        </div>
+        <div class="result__frame">
+            <div class="mineral__result">
+            </div>
+            <div class="supply__result">
+            </div>
+        </div>
+        <div>
+            <video
+                src="./public/videos/video2.mp4"
+                style="display: none;"
+                autoplay
+                loop
+                class="info_container__video"
+            >
+            </video>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./public/script.js"></script>
+
+</body>
+</html>
